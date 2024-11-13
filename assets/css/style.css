@@ -141,7 +141,7 @@ nav{
     margin-right: 20px;
 }
 .planos-container .precos-container .preco{
-    background-color: #3700A6;
+    background-color: #7209D4;
     width: 150px;
     height: 150px;
     margin: auto;
@@ -169,11 +169,97 @@ nav{
 }
 .planos-container .precos-container .btn-plano{
     background-color: #7209D4;
-    color: #000000;
+    color: black;
     font-size: 20px;
     font-weight: 600;
     height: 50px;
 }
 .planos-container .precos-container .recomendado{
+    background-color: #7209D4;
+}
+.buscar-dominio{
+    background-color: black;
+    text-align: center;
+    padding: 5em 0;
+}
+.buscar-dominio h2{
+    color: #ffff;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.buscar-dominio p{
+    color: #ffff;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.buscar-dominio input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.buscar-dominio input[type="text"]{
+    width: 60%;
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 20px;
+}
+.buscar-dominio input[type="submit"]{
+    background-color: #2DEF13;
+    padding: 15px 30px;
+    color: #ffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.contato-container{
+    text-align: center;
+    padding: 5em;
+    padding-bottom: 2em;
+}
+.contato-container h2{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contato-container input, .contato-container textarea{
+    width: 220px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contato-container textarea{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+.contato-container input[type="submit"]{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #52fc16;
+    color: #ffffff;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
     background-color: #000000;
+    color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
